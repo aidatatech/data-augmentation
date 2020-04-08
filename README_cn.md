@@ -25,6 +25,14 @@ Code: https://github.com/google-research/augmix
 Comments: 使用了和原始数据接近的增强方式，另外在loss函数中增加了JS diversity来牵引网络对不同的增强变换保持鲁棒。  
 Questions: 上面提到的两种手段对最终效果的贡献分别是多少？对CIFAR-10/100, ImageNet这种原始数据集，而不是CIFAR-10-C/100-C, ImageNet-C这些数据集有无收益？
 
+### SuperMix: Supervising the Mixing Data Augmentation
+Ali Dabouei, Sobhan Soleymani, Fariborz Taherkhani, Nasser M. Nasrabadi  
+West Virginia University  
+Submitted on 10 Mar 2020  
+Papaer: https://arxiv.org/abs/2003.05034
+Code: https://github.com/alldbi/SuperMix  
+Comments: 使用了teacher network来指导mask的生成，相对于CutMix等更有针对性。SuperMix 的优化目标有三个：i) 输入图像的类别出现在混合后的图像中；ii)保留图像的局部结构；iii) 降低抑制重要特征的风险。  
+
 ## Libraries
 ### imgaug
 https://github.com/aleju/imgaug
