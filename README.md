@@ -25,6 +25,16 @@ Code: https://github.com/google-research/augmix
 Comments: Less severe augmentation policies and JS diversity loss are applied.  
 Questions: What's the sepearte effect for less severe policy and JS diversity loss? Is it benificial for clean data rather than corrupted datasets?
 
+
+### SuperMix: Supervising the Mixing Data Augmentation
+Ali Dabouei, Sobhan Soleymani, Fariborz Taherkhani, Nasser M. Nasrabadi  
+West Virginia University  
+Submitted on 10 Mar 2020  
+Papaer: https://arxiv.org/abs/2003.05034  
+Code: https://github.com/alldbi/SuperMix  
+Comments: SuperMix, which exploits the knowledge of a teacher to mix images based on their salient regions. SuperMix optimizes a mixing objective that considers: i) forcing the class of input images to appear in the mixed image, ii) preserving the local structure of images, and iii) reducing the risk of suppressing important features.
+
+
 ## Libraries
 ### imgaug
 https://github.com/aleju/imgaug
